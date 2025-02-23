@@ -14,7 +14,7 @@ interface Tour {
   activity: string;
   vehicle: string;
   price: number;
-  startTime: string;
+  startTime:  number;
   groupSize: number;
   features: string[];
   img: string;

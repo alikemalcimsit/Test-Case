@@ -123,7 +123,7 @@ export default function Home() {
   // Filter the data based on selected filters
   const filteredData = datas.filter((data) => {
     const isGroupSizeMatch = data.groupSize >= groupSizeValue;
-    const isStartTimeMatch = startTimeValue ? data.startTime.startsWith(startTimeValue) : true;
+    const isStartTimeMatch = startTimeValue ? data.startTime === startTimeValue : true;
     const isFeatureMatch = selectedFeature ? data.features.includes(selectedFeature) : true;
     const isPriceMatch = priceValue ? data.price <= priceValue : true;
     const isVehicleMatch = selectedVehicle ? data.vehicle === selectedVehicle : true;
