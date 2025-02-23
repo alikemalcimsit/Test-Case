@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { IoIosCloseCircleOutline, IoIosSearch } from "react-icons/io";
+import { IoIosCloseCircleOutline } from "react-icons/io";
 import TourFilters from './TourFilters';
 import RentFilters from './RentFilters';
 import TransferFilter from './TransferFilter';

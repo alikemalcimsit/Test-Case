@@ -6,7 +6,6 @@ import { CiFilter } from "react-icons/ci";
 import { TfiWorld } from "react-icons/tfi";
 import { FcLike } from "react-icons/fc";
 import { FiShoppingCart } from "react-icons/fi";
-import { IoClose } from "react-icons/io5";
 import Image from 'next/image';
 import logo from "../assets/logo.png";
 import Modal from './Modal';

@@ -1,7 +1,7 @@
 "use client"
 
 import { useTourFilters } from '@/context/TourFilterContext';
-import React, { useState } from 'react'
+import React from 'react'
 import { IoIosSearch } from 'react-icons/io';
 
 

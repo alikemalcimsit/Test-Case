@@ -5,6 +5,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { IoIosReturnRight } from "react-icons/io";
 import { MdSouthEast } from "react-icons/md";
 import { useTourFilters } from '@/context/TourFilterContext';
+import Image from 'next/image';
 
 const data = [
     {
@@ -143,7 +144,8 @@ const data = [
             {/* Discount banner */}
             <div className="relative">
               {/* Image */}
-              <img
+              <Image height={224}
+
                 src={item.img}
                 alt={item.name}
                 className="w-full h-56 object-cover"
